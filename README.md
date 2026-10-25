@@ -1,2 +1,2 @@
 # NoteraIOS
-BLM4581 &amp; BLM4587 Dersleri Kapmasında Yapacağımız Proje
+BLM4587 IOS ile Mobil Uygulama Geliştirme Dersi Kapmasında Yapacağımız Proje
