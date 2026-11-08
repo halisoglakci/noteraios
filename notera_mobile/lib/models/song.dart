@@ -4,27 +4,17 @@ class Song {
   final String artist;
 
   Song({required this.id, required this.title, required this.artist});
+
+  // İnternetten (API'den) gelen JSON verisini Song nesnesine dönüştüren metot
+  factory Song.fromJson(Map<String, dynamic> json) {
+    return Song(
+      // Eğer backend'den veri boş gelirse program çökmesin diye varsayılan değerler atıyoruz
+      id: json['id'] ?? 0,
+      title: json['title'] ?? 'Bilinmeyen Şarkı',
+      artist: json['artist'] ?? 'Bilinmeyen Sanatçı',
+    );
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 Burada bir şablon/class oluşturduk.
