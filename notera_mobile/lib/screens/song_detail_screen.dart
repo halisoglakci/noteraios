@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/song.dart';
 
 class SongDetailScreen extends StatelessWidget {
-  final Song song; // Tıklanan şarkının verisini tutacak değişken
+  final Song song;
 
   const SongDetailScreen({super.key, required this.song});
 
